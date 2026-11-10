@@ -1,0 +1,46 @@
+{
+  "name": "signalscout",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Open-Source Social Intent Lead Finder & Contextual Outreach Studio powered by Gemini 1.5 Flash",
+  "license": "MIT",
+  "homepage": "https://github.com/riteshgondhale/SignalScout#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riteshgondhale/SignalScout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/riteshgondhale/SignalScout/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "supabase db push"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.46.1",
+    "clsx": "^2.1.1",
+    "inngest": "^3.27.0",
+    "lucide-react": "^0.460.0",
+    "next": "15.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "resend": "^4.0.1",
+    "stripe": "^17.3.1",
+    "tailwind-merge": "^2.5.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3"
+  }
+}
